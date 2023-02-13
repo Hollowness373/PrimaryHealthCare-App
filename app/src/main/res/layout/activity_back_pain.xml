@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".BackPain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2"
+        android:background="#e3e3e3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rltLayout3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle1"
+                android:text="Back Pain"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout4"
+                android:padding="20dp"
+                android:layout_below="@id/txtTitle1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph1"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Back pain is one of the most common reasons people go to the doctor or miss work, and it is a leading cause of disability worldwide. Fortunately, you can take measures to prevent or relieve most back pain episodes. If prevention fails, simple home treatment and proper body mechanics often will heal your back within a few weeks and keep it functional. Surgery is rarely needed to treat back pain."
+                    android:layout_marginTop="30dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage1"
+                    android:src="@mipmap/backpain"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph2"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Back pain is one of the most common physical ailments. Your might have sprained it while working in the yard or cleaning house. Or your back might hurt from an old sports injury or a chronic condition such as arthritis or ankylosing spondylitis."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph3"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Back pain can range from a muscle aching to a shooting, burning or stabbing sensation. In addition, the pain may radiate down your leg or worsen with bending, twisting, lifting, standing or walking."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtParagraph2"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage2"
+                    android:src="@mipmap/backpain1"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph4"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Most back pain gradually improves with home treatment and self-care, usually within a few weeks. Contact your doctor if your back pain: Persists past a few weeks, Is severe and doesn't improve with rest, Spreads down one or both legs, especially if the pain extends below the knee, Causes weakness, numbness or tingling in one or both legs, Is accompanied by unexplained weight loss."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltRemedy"
+                android:layout_below="@+id/rltLayout4"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRemedyTitle"
+                    android:textSize="25dp"
+                    android:text="Ways to Manage Low Back Pain at Home"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle1"
+                    android:text="1.Keep Moving"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtRemedyTitle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription1"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="You might not feel like it when you’re in pain. But this is probably the first thing your doctor will recommend. Try to keep up with your usual level of daily activity and movement. It can be a brisk 30-minute walk or circling the block with your dog. Aim to get on your feet at least three times a week. Being sedentary “allows the muscles around the spine and in the back to become weak,” says Salman Hemani, MD, an assistant professor of orthopedics at Emory University School of Medicine in Atlanta. “That in turn can cause less support for the spine” and lead to long-term pain."
+                    android:layout_below="@+id/noTitle1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle2"
+                    android:text="2.Stretch and Strengthen"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription2"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Strong muscles, especially in your abdominal core, help support your back. Strength and flexibility may help both relieve your pain and prevent it. Yoga, Pilates, and tai chi are just a few of the ways to strengthen your core and the muscles around your hips. One exercise that targets your entire upper and lower back is to lie on your tummy and lift up your legs and arms in the flying position."
+                    android:layout_below="@+id/noTitle2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle3"
+                    android:text="3.Keep Good Posture"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription3"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="This helps ease the pressure on your lower back. You can use tape, straps, or stretchy bands to help keep your spine in alignment. Aim to keep your head centered over your pelvis. Don’t slouch your shoulders or crane your chin forward. If you work in front of a screen, rest your arms evenly on the table or desk, and keep your eyes level with the top of the screen. Get up from your chair and stretch and walk regularly."
+                    android:layout_below="@+id/noTitle3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle4"
+                    android:text="4. Maintain a Healthy Weight"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription4"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Shedding extra pounds lightens the load on your lower back. If you need help, ask your doctor for advice on a diet and exercise plan that may work best for you."
+                    android:layout_below="@+id/noTitle4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle5"
+                    android:text="5.Quit Smoking"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription5"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Research suggests that if you smoke, you may be four times more likely than nonsmokers to have degenerative disk disease or other spine problems. Nicotine in cigarettes and other tobacco products can weaken your spinal bones and take away vital nutrients from the spongy disks that cushion your joints. A healthy spine keeps your back flexible and its muscles from getting stiff and sore."
+                    android:layout_below="@+id/noTitle5"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/rltPageBreak"
+                android:layout_below="@id/rltRemedy"
+                android:background="#9ea7ad">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout5"
+                android:layout_below="@+id/rltRemedy"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddAComment"
+                    android:text="Add a comment"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRate"
+                    android:text="Rate: "
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtAddAComment"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar"
+                    android:layout_below="@+id/txtAddAComment"
+                    android:layout_toRightOf="@+id/txtRate"
+                    android:progressTint="#FFC107"
+                    android:rating="2"
+                    android:stepSize=".5"
+                    android:numStars="5"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:text=""
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/edtComment"
+                    android:hint="Leave a comment!"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtRate"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComment"
+                    android:text="Comment"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/edtComment"
+                    android:backgroundTint="#296687"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerView1"
+                    android:layout_below="@+id/btnComment"
+                    android:layout_marginTop="20dp"/>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

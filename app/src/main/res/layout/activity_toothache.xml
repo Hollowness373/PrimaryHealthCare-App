@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".Toothache">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2"
+        android:background="#e3e3e3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rltLayout3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle1"
+                android:text="Toothache"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout4"
+                android:padding="20dp"
+                android:layout_below="@id/txtTitle1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph1"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="A toothache is a pain in or around a tooth. Minor toothaches can come from a temporary gum irritation that you can treat at home. More serious toothaches are caused by dental and mouth problems that won’t get better on their own and will need to be treated by a dentist."
+                    android:layout_marginTop="30dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage1"
+                    android:src="@mipmap/toothache"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph2"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="The pulp inside your tooth is soft material filled with nerves, tissues and blood vessels. These pulp nerves are among the most sensitive in your body. When these nerves are irritated or infected by bacteria (abscess), they can cause severe pain."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph3"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Some toothaches that come from pain around (but not inside) your tooth can get better without a trip to the dentist. Pain from a temporary irritation (redness) in the gum can be resolved within a few days. During this time try not to chew around the affected area. Eat soft foods, like eggs and yogurt, and avoid sweets and very hot or very cold foods if teeth are sensitive."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtParagraph2"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage2"
+                    android:src="@mipmap/toothache1"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph4"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="If you have a toothache, it’s important to figure out what’s at the root of your discomfort. From there, you can determine how to best relieve any pain, swelling, or other symptoms. A regular salt water rinse and cold compress application can typically remedy minor irritation, but more serious toothaches may require a dentist’s intervention. If your symptoms persist for more than a day or two, see your dentist. They can provide guidance on how to relieve your symptoms and prevent future pain. You should also talk to your dentist before using any of the following remedies if you’re pregnant, breastfeeding, or have any medical condition that may be impacted by herbal ingredients."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltRemedy"
+                android:layout_below="@+id/rltLayout4"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRemedyTitle"
+                    android:textSize="25dp"
+                    android:text="Remedies for Toothache Pain"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle1"
+                    android:text="1. Salt water rinse"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtRemedyTitle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription1"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="For many people, a salt water rinse is an effective first-line treatment. Salt water is a natural disinfectant, and it can help loosen food particles and debris that may be stuck in between your teeth. Treating a toothache with salt water can also help reduce inflammation and heal any oral wounds. To use this approach, mix 1/2 teaspoon (tsp) of salt into a glass of warm water and use it as a mouthwash."
+                    android:layout_below="@+id/noTitle1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle2"
+                    android:text="2. Hydrogen peroxide rinse"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription2"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="A hydrogen peroxide rinse may also help to relieve pain and inflammation. In addition to killing bacteria, hydrogen peroxide can reduce plaque and heal bleeding gums. Make sure you properly dilute the hydrogen peroxide. To do this, mix 3 percent hydrogen peroxide with equal parts water and use it as a mouthwash. Don’t swallow it."
+                    android:layout_below="@+id/noTitle2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle3"
+                    android:text="3. Cold compress"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription3"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="You may use a cold compress to relieve any pain you’re experiencing, especially if any type of trauma has caused your toothache. When you apply a cold compress, it causes the blood vessels in the area to constrict. This makes pain less severe. The cold can also reduce any swelling and inflammation. To use this approach, hold a towel-wrapped bag of ice to the affected area for 20 minutes at a time. You can repeat this every few hours."
+                    android:layout_below="@+id/noTitle3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle4"
+                    android:text="4. Peppermint tea bags"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription4"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Peppermint tea bags can be used to numb pain and soothe sensitive gums. To do this, allow a used tea bag to cool down before applying it to the affected area. It should still be slightly warm. You can also swap approaches and use this to cool, rather than warm, the area. To do this, put a used tea bag in the freezer for a couple of minutes to chill it and then apply the bag to your tooth. Learn more about the health benefits of peppermint."
+                    android:layout_below="@+id/noTitle4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle5"
+                    android:text="5. Garlic"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription5"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="For thousands of years, garlic has been recognized and used for its medicinal properties. Not only can it kill harmful bacteria that cause dental plaque, but it can also act as a pain reliever. To use this, crush a garlic clove to create a paste and apply it to the affected area. You may wish to add a tiny bit of salt. Alternatively, you can slowly chew a clove of fresh garlic."
+                    android:layout_below="@+id/noTitle5"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/rltPageBreak"
+                android:layout_below="@id/rltRemedy"
+                android:background="#9ea7ad">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout5"
+                android:layout_below="@+id/rltRemedy"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddAComment"
+                    android:text="Add a comment"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRate"
+                    android:text="Rate: "
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtAddAComment"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar"
+                    android:layout_below="@+id/txtAddAComment"
+                    android:layout_toRightOf="@+id/txtRate"
+                    android:progressTint="#FFC107"
+                    android:rating="2"
+                    android:stepSize=".5"
+                    android:numStars="5"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:text=""
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/edtComment"
+                    android:hint="Leave a comment!"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtRate"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComment"
+                    android:text="Comment"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/edtComment"
+                    android:backgroundTint="#296687"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerView1"
+                    android:layout_below="@+id/btnComment"
+                    android:layout_marginTop="20dp"/>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

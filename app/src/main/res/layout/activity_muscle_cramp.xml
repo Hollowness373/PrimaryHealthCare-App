@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".MuscleCramp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2"
+        android:background="#e3e3e3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rltLayout3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle1"
+                android:text="Muscle Cramp"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout4"
+                android:padding="20dp"
+                android:layout_below="@id/txtTitle1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph1"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="A muscle cramp is an uncontrollable and painful spasm of a muscle. Any muscle can be affected, but the muscles of the calf and foot are particularly prone. A cramp can last for varying periods of time and generally resolves by itself. The exact cause of cramp is unknown but risk factors may include poor physical condition, mineral and electrolyte imbalances and tight, inflexible muscles."
+                    android:layout_marginTop="30dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage1"
+                    android:src="@mipmap/musclecramp"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph2"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Cramps are usually harmless but may sometimes be symptomatic of an underlying medical disorder, such as atherosclerosis (narrowing of the arteries). Regular cramping or severe cramping that lasts longer than a few minutes should always be investigated by your doctor."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph3"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Muscle tissue relies, in part, on a range of minerals, electrolytes and other chemicals in order to contract and relax. Some of these important substances include calcium, magnesium, potassium and sodium. Inadequate diet, dehydration, vomiting and diarrhoea are just some of the factors that are thought to disturb the body’s balance of minerals and electrolytes, and make muscles more susceptible to cramping."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtParagraph2"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage2"
+                    android:src="@mipmap/musclecramp1"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph4"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="You can usually treat muscle cramps with self-care measures. Your doctor can show you stretching exercises that can help you reduce your chances of getting muscle cramps. Making sure you stay well-hydrated also can help. For recurrent cramps that disturb your sleep, your doctor might prescribe a medication to relax your muscles."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltRemedy"
+                android:layout_below="@+id/rltLayout4"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRemedyTitle"
+                    android:textSize="25dp"
+                    android:text="Lifestyle and home remedies"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle1"
+                    android:text="1. Stretch and massage."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtRemedyTitle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription1"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Stretch the cramped muscle and gently rub it to help it relax. For a calf cramp, put your weight on your cramped leg and bend your knee slightly. If you're unable to stand, sit on the floor or in a chair with your affected leg extended."
+                    android:layout_below="@+id/noTitle1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle2"
+                    android:text="2. Apply heat or cold"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription2"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Use a warm towel or heating pad on tense or tight muscles. Taking a warm bath or directing the stream of a hot shower onto the cramped muscle also can help. Alternatively, massaging the cramped muscle with ice may relieve pain."
+                    android:layout_below="@+id/noTitle2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle3"
+                    android:text="3. Alternative medicine"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription3"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Some suggest taking vitamin B complex supplements to help manage leg cramps. However, more research is needed to confirm this benefit."
+                    android:layout_below="@+id/noTitle3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle4"
+                    android:text="4. Increase your level of physical fitness."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle5"
+                    android:text="5. Drink plenty of water before, during and after exercise."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle4"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/rltPageBreak"
+                android:layout_below="@id/rltRemedy"
+                android:background="#9ea7ad">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout5"
+                android:layout_below="@+id/rltRemedy"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddAComment"
+                    android:text="Add a comment"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRate"
+                    android:text="Rate: "
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtAddAComment"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar"
+                    android:layout_below="@+id/txtAddAComment"
+                    android:layout_toRightOf="@+id/txtRate"
+                    android:progressTint="#FFC107"
+                    android:rating="2"
+                    android:stepSize=".5"
+                    android:numStars="5"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:text=""
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/edtComment"
+                    android:hint="Leave a comment!"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtRate"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComment"
+                    android:text="Comment"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/edtComment"
+                    android:backgroundTint="#296687"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerView1"
+                    android:layout_below="@+id/btnComment"
+                    android:layout_marginTop="20dp"/>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

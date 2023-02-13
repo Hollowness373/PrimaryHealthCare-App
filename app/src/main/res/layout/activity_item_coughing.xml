@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".ItemCoughing">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2"
+        android:background="#e3e3e3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rltLayout3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle1"
+                android:text="Coughing"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout4"
+                android:padding="20dp"
+                android:layout_below="@id/txtTitle1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph1"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Coughs play a role in clearing irritants and infections from the body, but persistent coughing can be annoying. The best treatment for a cough will depend on its underlying cause. There are many possible causes of coughs, including allergies, infections, and acid reflux."
+                    android:layout_marginTop="30dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage1"
+                    android:src="@mipmap/caughing"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph2"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Coughing is a common reflex action that clears your throat of mucus or foreign irritants. While everyone coughs to clear their throat from time to time, a number of conditions can cause more frequent coughing."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph3"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Most coughs will clear up, or at least significantly improve, within two weeks. If you have a cough that hasn’t improved in this amount of time, see a doctor, as it may be a symptom of a more serious problem."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtParagraph2"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage2"
+                    android:src="@mipmap/caughing2"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph4"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="People who want to use natural remedies to treat their cough should research sources and brands. They should also be aware that some herbs and supplements can interfere with medications, which may result in unwanted side effects. If a cough is severe or persists for more than a few weeks, it is essential to seek medical advice."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltRemedy"
+                android:layout_below="@+id/rltLayout4"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRemedyTitle"
+                    android:textSize="25dp"
+                    android:text="Natural Cough Remedies"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle1"
+                    android:text="1. Honey tea"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtRemedyTitle"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage3"
+                    android:src="@mipmap/caughing3"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/noTitle1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription1"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Honey is a time-honored remedy for a sore throat. According to one study, it can also relieve coughs more effectively than OTC medications that contain dextromethorphan (DM), a cough suppressant. You can create your own remedy at home by mixing up to 2 teaspoons of honey with herbal tea or warm water and lemon. The honey does the soothing, while the lemon juice can help with congestion. You can also simply eat the honey by the spoonful or spread it on bread for a snack."
+                    android:layout_below="@+id/imgImage3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle2"
+                    android:text="2. Ginger"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription2"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ginger may ease a dry or asthmatic cough, as it has anti-inflammatory properties. It may also relieve nausea and pain. One study suggests that some anti-inflammatory compounds in ginger can relax membranes in the airways, which could reduce coughing. The researchers mainly studied the effects of ginger on human cells and animals, so more research is necessary. Brew up a soothing ginger tea by adding 20–40 grams (g) of fresh ginger slices to a cup of hot water. Allow to steep for a few minutes before drinking. Add honey or lemon juice to improve the taste and further soothe a cough. Be aware that, in some cases, ginger tea can cause stomach upset or heartburn."
+                    android:layout_below="@+id/noTitle2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle3"
+                    android:text="3. Fluids"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription3"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Staying hydrated is vital for those with a cough or cold. Research indicates that drinking liquids at room temperature can alleviate a cough, runny nose, and sneezing. However, people with additional symptoms of a cold or flu may benefit from warming up their beverages. The same study reports that hot beverages alleviate even more symptoms, including a sore throat, chills, and fatigue. The symptom relief was immediate and remained for a continued period after finishing the hot beverage."
+                    android:layout_below="@+id/noTitle3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle4"
+                    android:text="4. Steam"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription4"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="A wet cough, which is one that produces mucus or phlegm, may improve with steam. Take a hot shower or bath and allow the bathroom to fill with steam. Stay in this steam for a few minutes until symptoms subside. Drink a glass of water afterward to cool down and prevent dehydration. Alternatively, make a steam bowl. To do this, fill a large bowl with hot water. Add herbs or essential oils, such as eucalyptus or rosemary, which may also relieve decongestion. Lean over the bowl and place a towel over the head. This traps the steam. Inhale the vapors for 5 minutes. If the steam feels hot on the skin, discontinue until the skin cools down. People with a wet cough or chest congestion may also wish to follow the recommendations of the National Heart, Lung, and Blood Institute (NHLBI) and use a cool-mist humidifier or steam vaporizer in their home."
+                    android:layout_below="@+id/noTitle4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle5"
+                    android:text="5. Marshmallow"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noDescription4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noDescription5"
+                    android:justificationMode="inter_word"
+                    android:layout_marginLeft="20dp"
+                    android:text="Marshmallow is made from Althaea officinalis, a perennial that flowers in summer. The leaves and roots of the herb have been used since ancient times to treat sore throats and suppress coughs. There are no well-controlled studies to support these claims, but the herb is generally considered safe. The marshmallow herb contains mucilage, which coats the throat and soothes irritation. Today, you can get marshmallow root as tea or in capsule form. The warm tea can be soothing to a cough that’s accompanied by a sore throat. Marshmallow root isn’t recommended for children."
+                    android:layout_below="@+id/noTitle5"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/rltPageBreak"
+                android:layout_below="@id/rltRemedy"
+                android:background="#9ea7ad">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout5"
+                android:layout_below="@+id/rltRemedy"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddAComment"
+                    android:text="Add a comment"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRate"
+                    android:text="Rate: "
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtAddAComment"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar"
+                    android:layout_below="@+id/txtAddAComment"
+                    android:layout_toRightOf="@+id/txtRate"
+                    android:progressTint="#FFC107"
+                    android:rating="2"
+                    android:stepSize=".5"
+                    android:numStars="5"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:text=""
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/edtComment"
+                    android:hint="Leave a comment!"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtRate"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComment"
+                    android:text="Comment"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/edtComment"
+                    android:backgroundTint="#296687"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerView1"
+                    android:layout_below="@+id/btnComment"
+                    android:layout_marginTop="20dp"/>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

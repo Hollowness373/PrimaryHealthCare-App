@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".ListPages">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/arrowBack"
+            android:background="#FFF"
+            android:padding="10dp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2">
+
+        <RelativeLayout
+            android:id="@+id/rltLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rltLayout2"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/intentUsername"
+                android:text=""
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/btnItem1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Runny Nose"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnHeadaches"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnItem1"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Headaches"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnCoughing"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnHeadaches"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Coughing"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnToothache"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnCoughing"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Toothache"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnNausea"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnToothache"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Nausea / Vomiting"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnFever"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnNausea"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Fever"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnBackPain"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnFever"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Back Pain"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnMuscleCramp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnBackPain"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Muscle Cramp"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnCankerSore"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnMuscleCramp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonradius"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="40dp"
+                android:text="Canker Sore"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

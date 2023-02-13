@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".Fever">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2"
+        android:background="#e3e3e3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rltLayout3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle1"
+                android:text="Fever"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout4"
+                android:padding="20dp"
+                android:layout_below="@id/txtTitle1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph1"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="A fever is a higher-than-normal body temperature. It’s a sign of your body's natural fight against infection. For adults, a fever is when your temperature is higher than 100.4°F. For kids, a fever is when their temperature is higher than 100.4°F (measured rectally); 99.5°F (measured orally); or 99°F (measured under the arm)."
+                    android:layout_marginTop="30dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage1"
+                    android:src="@mipmap/fever1"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph2"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="A healthy adult with a slight fever may feel like they’ve been hit with a Mack truck, but a baby with a high fever may sometimes feel pretty comfortable. The reverse of both scenarios can also occur. Fevers aren’t one-size-fits-all, and neither are their symptoms. Your overall comfort level and symptoms can help you decide how to treat a fever."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph3"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="How and when you should treat a fever is generally determined by your age. If left untreated, fever can lead to serious complications in young children, older adults, and people with compromised immune systems. Infants up to 3 months old should be seen by a doctor if they have a fever of 100.4°F (38°C) or above. They should still see a doctor even if there are no other symptoms present."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtParagraph2"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imgImage2"
+                    android:src="@mipmap/fever"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txtParagraph3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtParagraph4"
+                    android:textSize="15dp"
+                    android:justificationMode="inter_word"
+                    android:text="Children ages 2 to 17 years old generally don’t need medication to reduce fevers under 102°F (38.9°C). They may benefit from medication if they’re experiencing symptoms such as irritability or muscle aches. If their fever goes above 102°F (38.9°C), medication may be used to bring it down. If your child is very uncomfortable, or if their fever persists for more than three days, you should consult with your doctor."
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/imgImage2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltRemedy"
+                android:layout_below="@+id/rltLayout4"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRemedyTitle"
+                    android:textSize="25dp"
+                    android:text="How to break a fever"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle1"
+                    android:text="1.Take your temperature and assess your symptoms. If your temperature runs 100.4°F (38°C) or higher, you have a fever."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/txtRemedyTitle"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle2"
+                    android:text="2.Stay in bed and rest."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle3"
+                    android:text="3.Keep hydrated. Drinking water, iced tea, or very diluted juice to replenish fluids lost through sweating. But if keeping liquids down is difficult, suck on ice chips."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle4"
+                    android:text="4.Take over-the-counter medications like acetaminophen and ibuprofen to reduce fever. Note the proper dosage, and don’t them use alongside other fever-reducing medications. You shouldn’t give aspirin to your baby or child without consulting your doctor. Infants under 6 months of age shouldn’t be given ibuprofen."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle5"
+                    android:text="5.Stay cool. Remove extra layers of clothing and blankets, unless you have the chills."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle6"
+                    android:text="6.Take tepid baths or using cold compresses to make you more comfortable. Cold baths, ice cube baths, or alcohol baths or rubs can be dangerous and should be avoided."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle5"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noTitle7"
+                    android:text="7.But no matter what the number on the thermometer reads, if you have any concerns consult your doctor."
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/noTitle6"/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/rltPageBreak"
+                android:layout_below="@id/rltRemedy"
+                android:background="#9ea7ad">
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout5"
+                android:layout_below="@+id/rltRemedy"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddAComment"
+                    android:text="Add a comment"
+                    android:layout_marginTop="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRate"
+                    android:text="Rate: "
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtAddAComment"/>
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar"
+                    android:layout_below="@+id/txtAddAComment"
+                    android:layout_toRightOf="@+id/txtRate"
+                    android:progressTint="#FFC107"
+                    android:rating="2"
+                    android:stepSize=".5"
+                    android:numStars="5"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:text=""
+                    android:visibility="invisible"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/edtComment"
+                    android:hint="Leave a comment!"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txtRate"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnComment"
+                    android:text="Comment"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/edtComment"
+                    android:backgroundTint="#296687"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerView1"
+                    android:layout_below="@+id/btnComment"
+                    android:layout_marginTop="20dp"/>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

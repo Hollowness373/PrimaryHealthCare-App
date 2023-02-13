@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/phcbackground"
+    tools:context=".Item1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rltLayout2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/arrowBack"
+            android:src="@drawable/ic_arrow_20dp"
+            app:tint="#FFF" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltLayout2"
+        android:background="#e3e3e3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rltLayout3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTitle1"
+                    android:text="Runny Nose"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rltLayout4"
+                    android:padding="20dp"
+                    android:layout_below="@id/txtTitle1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtParagraph1"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Got a case of the sniffles? Chances are that your nose is running faster than a waterfall. Or maybe your nose feels all stuffed up, forcing you to breathe out of your mouth. Or worse-both. A runny nose and nasal congestion are both uncomfortable upper respiratory symptoms with their own underlying causes. But once they start, you want relief, fast."
+                        android:layout_marginTop="30dp" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/imgImage1"
+                        android:src="@mipmap/runny_nose"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/txtParagraph1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtParagraph2"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="A runny nose is a discharge of mucus from the nostrils. It’s the result of excess nasal mucus production. The excess nasal mucus leads to watery nasal secretions that flow out of your nostrils or drip down into your throat."
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/imgImage1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtParagraph3"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Nasal congestion is due to the inflammation of the linings of the nasal cavity. Swollen nasal passages constrict air flow, making it harder to breathe through your nose. The inflammation also makes it harder to get mucus out of your nose, so you may also have a build-up of thick, dry mucus, as well. It causes you to feel stuffed up, which is why it’s also referred to as a stuffy nose."
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/txtParagraph2"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:id="@+id/imgImage2"
+                        android:src="@mipmap/runny_nose1"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/txtParagraph3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtParagraph4"
+                        android:textSize="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="The common cold and the flu are often the culprits of a runny nose and/or nasal congestion, but they can both also be caused by allergies. These are not the only symptom of the cold or flu. You may also experience other associated symptoms, like sneezing, coughing, chest congestion, a sore throat, headaches, and body aches."
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/imgImage2"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rltRemedy"
+                    android:layout_below="@+id/rltLayout4"
+                    android:padding="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtRemedyTitle"
+                        android:textSize="25dp"
+                        android:text="Relieve Nasal Congestion And Runny Nose"
+                        android:layout_marginTop="30dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noTitle1"
+                        android:text="1.Drink plenty of fluids."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/txtRemedyTitle"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noDescription1"
+                        android:justificationMode="inter_word"
+                        android:layout_marginLeft="20dp"
+                        android:text="If you have a stuffy nose, keeping yourself hydrated by drinking plenty of water and clear chicken broth to help make your mucus thinner and more fluid. That will allow it to drain faster from your nose and sinuses. Downing lots of liquids will also keep the membranes in your airways lubricated."
+                        android:layout_below="@+id/noTitle1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noTitle2"
+                        android:text="2.Sip a medicated hot drink."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/noDescription1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noDescription2"
+                        android:justificationMode="inter_word"
+                        android:layout_marginLeft="20dp"
+                        android:text="Hot drinks are comforting when you’re feeling under the weather. When you add FluTherapy Night Time into 8 oz. of hot water, you’ll soon feel relief from nasal congestion, runny nose, and other cold and flu symptoms, too. Be sure to take all of the medicated hot drink within 10-15 minutes. It has an antihistamine to dry up your nasal passages and relieve your runny nose symptoms and cough, as well as a nasal decongestant to relieve the stuffiness from nasal congestion. Then drift off into a good night’s sleep."
+                        android:layout_below="@+id/noTitle2"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noTitle3"
+                        android:text="3.Get plenty of rest."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/noDescription2"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noDescription3"
+                        android:justificationMode="inter_word"
+                        android:layout_marginLeft="20dp"
+                        android:text="Speaking of sleep… when you’re not feeling well, it’s crucial to get plenty of sleep so your body can heal. Research shows that your body makes new immune system cells when you are asleep.3 Proteins known as cytokines that are important for fighting infection and inflammation are produced and released during sleep.4 This means that sleep can keep your immune system in good shape. Plus, resting will give you a much-needed break from blowing your nose."
+                        android:layout_below="@+id/noTitle3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noTitle4"
+                        android:text="4.Apply a warm compress."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/noDescription3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noDescription4"
+                        android:justificationMode="inter_word"
+                        android:layout_marginLeft="20dp"
+                        android:text="Putting a warm compress to your nose and forehead multiple times a day can help relieve upper respiratory symptoms like nasal congestion. If you don’t have a compress, try moistening a washcloth with warm water and applying it to your face several times a day. This will help to loosen your mucus to help relieve nasal congestion."
+                        android:layout_below="@+id/noTitle4"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noTitle5"
+                        android:text="5.Get steamy."
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:layout_below="@+id/noDescription4"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/noDescription5"
+                        android:justificationMode="inter_word"
+                        android:layout_marginLeft="20dp"
+                        android:text="The next time you have a stuffy nose, try sitting in the bathroom with a warm shower running. You can also breathe in steam from a bowl of hot water. Inhaling warm (not hot) steam can help soothe the mucous membranes lining the nose and make the mucus thinner. This will help you drain your mucus faster."
+                        android:layout_below="@+id/noTitle5"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:id="@+id/rltPageBreak"
+                    android:layout_below="@id/rltRemedy"
+                    android:background="#9ea7ad">
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rltLayout5"
+                    android:layout_below="@+id/rltRemedy"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtAddAComment"
+                        android:text="Add a comment"
+                        android:layout_marginTop="30dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtRate"
+                        android:text="Rate: "
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/txtAddAComment"/>
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ratingBar"
+                        android:layout_below="@+id/txtAddAComment"
+                        android:layout_toRightOf="@+id/txtRate"
+                        android:progressTint="#FFC107"
+                        android:rating="2"
+                        android:stepSize=".5"
+                        android:numStars="5"
+                        android:layout_marginLeft="10dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtUsername"
+                        android:text=""
+                        android:visibility="invisible"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:id="@+id/edtComment"
+                        android:hint="Leave a comment!"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@id/txtRate"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnComment"
+                        android:text="Comment"
+                        android:textColor="@color/white"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/edtComment"
+                        android:backgroundTint="#296687"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/recyclerView1"
+                        android:layout_below="@+id/btnComment"
+                        android:layout_marginTop="20dp"/>
+
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
